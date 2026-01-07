@@ -1,0 +1,19 @@
+:root {
+  --bg: #0f1220;
+  --card: #171a2e;
+  --accent: #7c7cff;
+  --accent-soft: #a5a5ff;
+  --text: #f5f7ff;
+  --muted: #9aa0ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background: radial-gradient(circle at top, #1b1f3b, #0f1220);
+  color: var(--text);
+}
